@@ -2,15 +2,15 @@ let fs = require('fs')
 let chalk = require('chalk')
 
 owner = [
-  ['62895330379186'],
-  ['62895330379186'],
-  ['62895330379186', 'Owner', true]
+  ['6281349152362'],
+  ['6281349152362'],
+  ['6281349152362', 'Owner', true]
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 mods = [] // Want some help?
 prems = [] // Premium user has unlimited limit
 APIs = { // API Prefix
-  // name: 'https://website'
+  // name: IRGI
   nrtm: 'https://nurutomo.herokuapp.com',
   xteam: 'https://api.xteam.xyz',
   zahir: 'https://zahirr-web.herokuapp.com',
@@ -40,11 +40,11 @@ process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0
 const spack = fs.readFileSync("lib/exif.json")
 const stickerpack = JSON.parse(spack)
 if (stickerpack.spackname == '') {
-  var sticker_name = '@ainee_bot'
-  var sticker_author = 'Aine'
+  var sticker_name = '@Irgii_bot'
+  var sticker_author = 'Irgi'
 } else {
-  var sticker_name = stickerpack.spackname
-  var sticker_author = stickerpack.sauthor
+  var sticker_name = stickerpack.IRGI BOTz
+  var sticker_author = stickerpack.IRGI
 }
 
 const file_exif = "lib/exif.json"
@@ -56,9 +56,9 @@ fs.watchFile(file_exif, () => {
 })
 
 // Sticker WM
-packname = sticker_name
-author = sticker_author
-wm = '© Aine'
+packname = sticker_IRGI BOTz
+author = sticker_Irgi
+wm = '© Irgi'
 
 Intervalmsg = 1800 //detik
 
